@@ -3,18 +3,18 @@
 
 int main() {
 
-int sayi;
+int num;
 
-printf("Kontrol Edilecek Sayiyi Giriniz.");
-scanf("%d",&sayi);
+printf("Input a Number: ");
+scanf("%d",&num);
 
-if (sayi%15==0)
+if (num%15==0)
 {
-    printf("Sayi 3'e ve 5'e tam bolunur.");
+    printf("Number is divisible");
 }
 else
 {
-    printf("Sayi 3'e ve 5'e tam bolunmez.");
+    printf("Number is not divisible.");
 }
 
 return 0;
