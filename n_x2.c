@@ -2,18 +2,22 @@
 #import <stdlib.h>
 
 int main() {
-int n,i,num1,num2;
 
-printf("Input a number: ");
+int n,i,sayi1,sayi2;
+
+printf("Kac Sayi istersiniz? ");
 scanf("%d",&n);
 
 for (i=1;i<=n;i++)
 {
-    printf("Input a number: ");
-    scanf("%d",&num1);
-    num2=num1*2;
-    printf("%d\n",num2);
+    printf("istediginiz sayiyi giriniz: ");
+    scanf("%d",&sayi1);
+    sayi2=sayi1*2;
+    printf("%d\n",sayi2);
+
+
 }
+
 return 0;
 }
 
